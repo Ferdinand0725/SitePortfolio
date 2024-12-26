@@ -172,13 +172,8 @@ section{
     section{
         width: auto;
     }
-    .conteudo{
-        flex-direction: column-reverse;
-        padding: 0; 
-    }
-    .descricoes{
-        flex-direction: row;
+    
         
     
-}
+
 }
