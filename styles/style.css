@@ -173,8 +173,8 @@ section{
         width: auto;
     }
     .conteudo{
-        flex-direction: column;
-        padding: 5%; 
+        flex-direction: column-reverse;
+        padding: auto; 
     }
     .descricoes{
         flex-direction: row;
