@@ -176,5 +176,9 @@ section{
         flex-direction: column;
         padding: 5%; 
     }
+    .descricoes{
+        flex-direction: row;
+        justify-content: center;
+    }
     
 }
