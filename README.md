@@ -12,4 +12,4 @@
 
 ## Feito por:
 
-### Joana Santos
+### Ferdinand Machado
