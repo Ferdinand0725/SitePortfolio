@@ -101,6 +101,9 @@ section{
 .imagem{
     width: 35%;
 }
+.imagem_secundaria{
+    width: 35%;
+}
 .rodape{
     background-color: var(--cor-primaria);
     color: black;
@@ -142,6 +145,13 @@ section{
      justify-content: space-between;  
      
 }
+.topicos_descricao{
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.titulo{
+    font-size: 2.5rem;
+}
 
 @media(max-width:1200px) {
     .cabecalho{
@@ -152,10 +162,35 @@ section{
     }
     main{
         flex-direction: column-reverse;
+        margin: 3rem 0 0 0;
         
     }
     section{
         width: auto;
+    }
+    .sub_titulo_redes{
+        text-align: center;
+    }
+    .sub_titulo_redes__links{
+        display: flex;
+        align-items: center;
+        width: auto;
+        padding: 16px 10px;
+    }
+    .img_linkedin{
+        padding: 0 0 5px 0;
+    }
+    .imagem{
+        display: none;
+    }
+    .imagem_secundaria{
+        width: 70%;
+    }
+    .conteudo_principal{
+        text-align: center;
+    }
+    .conteudo{
+        text-align: center;
     }
     
         
